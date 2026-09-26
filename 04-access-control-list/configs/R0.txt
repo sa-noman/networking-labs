@@ -1,0 +1,8 @@
+enable
+configure terminal
+access-list 10 deny host 192.168.40.50
+access-list 10 permit any
+interface g0/1
+ ip access-group 10 out
+end
+write memory
