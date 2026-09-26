@@ -1,0 +1,5 @@
+show ip interface brief
+show running-config
+show ip route
+show access-lists
+show cdp neighbors
